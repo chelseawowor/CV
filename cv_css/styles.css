@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background: #fbcffc; */
+    color: #584153;
+    background: url(gallery/bgcv.png);
+    font-family: 'Nunito', sans-serif;
+}
+.atas {
+    font-family: 'Unna', serif;
+}
+.atas-fix {
+    font-family: 'Unna', serif;
+}
+/* ==================================================INDEX=================================================== */
+.img-bg {
+    width: 35%;
+    float: right;
+}
+.img-bg img {
+    width: auto;
+    height: 99%;
+    position: fixed;
+    padding: 0;
+}
+/* BAR */
+.topbar {
+    margin: 0.5rem;
+}
+.topbar img {
+    height: 20px;
+}
+.topbarleft {
+    float: left!important;
+}
+.topbarright {
+    float: right!important;
+    margin-left: 1rem;
+}
+.sosmed-top {
+    margin: 0 0.6rem 0 0.6rem;
+}
+
+.atas {
+    width: 100%;
+    position: block;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    height: 84px;
+    transition-property: all;
+    transition-duration: 0,5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    z-index: 1;
+    box-shadow: 0px 6px 9px rgb(0, 0, 0, 0.06);
+    background: #584153;
+    color: lavender;
+    border-style: outset;
+   
+}
+a[href] {
+    font-size: 20px;
+    text-decoration: none;
+    color: lavender;
+}
+a[href$=".com"] {
+    color: #584153;
+    font-size: 16px;
+}
+.atas-fix h1 {
+    margin-left: 1rem;
+}
+/* SATU */
+.kiri {
+    width: 65%;
+    float: left;
+    text-align: center;
+}
+.mee {
+    text-align: center;
+    margin: 1rem;
+}
+.mee img {
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #f7f7ee;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 2rem;
+}
+.links {
+    background: #e0dede;
+    display: inline-block;
+    padding: 1rem;
+    border: 3px solid #3b6978;
+    border-radius: 1rem;
+}
+a[href$="cv.html"] {
+    color: #204051;
+}
+a[href$="gallery.html"] {
+    color: #204051;
+}
+/* -------=--------------------MOBILE MODE---------------------------- */
+@media only screen and (max-width: 800px) {
+    .img-bg {
+        display: none;
+    }
+    .kiri {
+        width: 100%;
+    }
+}
+
+/* ==========================================================THE CV=================================================== */
+/* nav menu */
+.atas-fix h1{
+    display: inline-block;
+}
+.nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-menu li {
+    display: inline-block;
+    margin-left: 2rem;
+}
+.nav-menu-container {
+    float: right!important;
+    margin: 0;
+    box-shadow: 0px 6px 9px rgb(0, 0, 0, 0.06);
+    margin-right: 1rem;
+}
+.atas-fix {
+    width: 100%;
+    position: fixed;
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 60px;
+    transition-property: all;
+    transition-duration: 0,5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    z-index: 1;
+    box-shadow: 0px 6px 9px rgb(0, 0, 0, 0.06);
+    background: #584153;
+    color: lavender;
+    border-style: inherit;
+    line-height: 1.5;
+}
+.kanan2 {
+    width: 38%;
+    float: right;
+    background: url(gallery/bgcv1.png);
+}
+.kanan2 img {
+    /* width: 85%; */
+    height: 100%;
+    position: fixed;
+}
+.kiri2 {
+    padding-top: 60px;
+    width: 62%;
+    height: 100vh;
+    float: left;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: url(gallery/bgcv1.png);
+}
+.pp img{
+    border-radius: 3rem;
+    position: fixed;
+}
+.padtop img {
+    width: 5%;
+}
+.padtop {
+    padding-top: 60px;
+    padding-left: 3.5rem;
+}
+a[href$="https://www.google.com/search?safe=strict&ei=BZLjXvbEIuXTz7sP6rWayAo&q=sma+advent+timika&oq=sma+timik&gs_lcp=CgZwc3ktYWIQARgBMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BQgAEJECOgUIABCxAzoFCAAQgwE6BAgAEEM6AggAOgQIABAKOgYIABANEB46CAgAEAgQDRAeUOYRWI4vYNo_aAFwAHgAgAHpAYgB9AySAQUwLjguMpgBAKABAaoBB2d3cy13aXo&sclient=psy-ab"] {
+    color: #584153;
+    font-size: 16px;
+}
+a[href$="http://www.unklab.ac.id/"] {
+    color: #584153;
+    font-size: 16px;
+}
+.quote {
+    text-align: center;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+.quote p {
+    font-family: 'Bad Script', cursive;
+}
+.info {
+    background: #f6def6;
+    border: 6px solid #584153;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+}
+.hob {
+    background: #f6def6;
+    border: 5px solid #584153;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.edu {
+    background: #f6def6;
+    border: 5px solid #584153;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+.skil {
+    background: #f6def6;
+    border: 5px solid #584153;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+.input-grup input
+{
+    width: 45%;
+    border:0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    display: inline-block;
+    background: #f6def6;
+}
+.text-area textarea {
+    width: 95%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    background: #f6def6;
+}
+.submit {
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    background:  #584153;
+    color: #e0dede;
+}
+.con {
+    margin-bottom: 9%;
+    margin-left: 2rem;
+    margin-top: 7px;
+}
+.borr input{
+    border: 1px solid #584153;
+}
+.borr textarea {
+    border: 1px solid #584153;
+}
+a[href$="https://instagram.com/chelseawowor?igshid=kpz6vxsx5w8x"] {
+    color: #584153;
+    font-size: 16px;
+}
+a[href$="https://www.facebook.com/chelsea.wowor.5"] {
+    color: #584153;
+    font-size: 16px;
+}
+a[href$="s21810201@student.unklab.ac.id"] {
+    color: #584153;
+    font-size: 16px;
+}
+
+
+/* FOR MOBILE */
+@media only screen and (max-width:1030px) {
+    .kiri2 {
+        width: 70%;
+        overflow: inherit;
+        background: unset;
+    }
+    .kanan2 {
+        display: none;
+    }
+    .padtop {
+        width: 95%;
+        margin-bottom: 2rem;
+    }
+    .nav-menu li {
+        margin-left: 7px;
+    }
+    .atas-fix h1 {
+        display: none;
+    }
+    .inff {
+        width: 100%;
+    }
+/* ======================Gallery===================== */
+.kiri3 {
+    padding-top: 60px;
+    width: 62%;
+    height: 100vh;
+    float: left;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: url(gallery/bgcv1.png);
+}
+}
+.inff {
+    background: url(gallery/bgcv1.png);
+    border: 3px solid #584153;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+
+}
+.box img{
+    width: 100%;
+}
+.box {
+    display: inline-block;
+    width: 25%;
+    padding: 15px 10px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 37, 214, 0.18);
+    background: #f6def6;
+    border-radius: 1rem;
+}
