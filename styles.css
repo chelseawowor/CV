@@ -118,6 +118,9 @@ a[href$="gallery.html"] {
         float: left!important;
         display: block;
     } */
+    .atas {
+        float: left;
+    }
     .atas span {
         display: none;
     }
