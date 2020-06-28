@@ -114,6 +114,16 @@ a[href$="gallery.html"] {
     .kiri {
         width: 100%;
     }
+    /* .topbarleft {
+        float: left!important;
+        display: block;
+    } */
+    .atas span {
+        display: none;
+    }
+    .sosmed-top {
+        margin-bottom: 3rem;
+    }
 }
 
 /* ==========================================================THE CV=================================================== */
@@ -199,7 +209,19 @@ a[href$="http://www.unklab.ac.id/"] {
 .quote p {
     font-family: 'Bad Script', cursive;
 }
-.info {
+.padd{
+    background: #f6def6;
+    border: 6px solid #584153;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+/* .info {
     background: #f6def6;
     border: 6px solid #584153;
     border-radius: 1rem;
@@ -239,7 +261,7 @@ a[href$="http://www.unklab.ac.id/"] {
     padding-top: 1rem;
     padding-left: 2rem;
     padding-bottom: 1rem;
-}
+} */
 .input-grup input
 {
     width: 45%;
@@ -307,12 +329,44 @@ a[href$="s21810201@student.unklab.ac.id"] {
     }
     .nav-menu li {
         margin-left: 7px;
+        font-size: small;
+        float: right;
     }
     .atas-fix h1 {
         display: none;
     }
     .inff {
         width: 100%;
+    }
+    .pp img{
+       display: none;
+    }
+    .atas-fix {
+        width: 100%;
+        position: fixed;
+        padding-top: 0px;
+        padding-left: 5px;
+        height: 90px;
+        transition-property: all;
+        transition-duration: 0,5s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        z-index: 1;
+        box-shadow: 0px 6px 9px rgb(0, 0, 0, 0.06);
+        background: #584153;
+        color: lavender;
+        border-style: inherit;
+        line-height: 1.5;
+    }
+    .padtop {
+        padding-top: 80px;
+        padding-left: 3.5rem;
+    }
+    .padd {
+            background: #f6def6;
+            border: 6px solid #584153;
+            border-radius: 1rem;
+            width: 100%;
     }
 /* ======================Gallery===================== */
 .kiri3 {
