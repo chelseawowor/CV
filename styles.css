@@ -347,6 +347,9 @@ a[href$="s21810201@student.unklab.ac.id"] {
     .atas span {
         display: none;
     }
+    .atas h1 {
+        float: left;
+    }
 
     .inff {
         width: 100%;
