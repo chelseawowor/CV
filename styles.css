@@ -63,6 +63,9 @@ body {
     border-style: outset;
    
 }
+.atas h1 {
+    display: inline;
+}
 a[href] {
     font-size: 20px;
     text-decoration: none;
@@ -108,7 +111,10 @@ a[href$="gallery.html"] {
     margin-bottom: 3rem;
 }
 /* -------=--------------------MOBILE MODE---------------------------- */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
+    .atas-fix h1 {
+        display: none;
+    }
     .img-bg {
         display: none;
     }
@@ -230,47 +236,6 @@ a[href$="http://www.unklab.ac.id/"] {
     padding-left: 2rem;
     padding-bottom: 1rem;
 }
-/* .info {
-    background: #f6def6;
-    border: 6px solid #584153;
-    border-radius: 1rem;
-    margin-top: 1rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-bottom: 1rem;
-}
-.hob {
-    background: #f6def6;
-    border: 5px solid #584153;
-    border-radius: 1rem;
-    margin-top: 1rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-}
-.edu {
-    background: #f6def6;
-    border: 5px solid #584153;
-    border-radius: 1rem;
-    margin-top: 1rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-bottom: 1rem;
-    padding: 2rem;
-}
-.skil {
-    background: #f6def6;
-    border: 5px solid #584153;
-    border-radius: 1rem;
-    margin-top: 1rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-bottom: 1rem;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    padding-bottom: 1rem;
-} */
 .input-grup input
 {
     width: 45%;
@@ -323,7 +288,7 @@ a[href$="s21810201@student.unklab.ac.id"] {
 
 
 /* FOR MOBILE */
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1000px) {
     .kiri2 {
         width: 70%;
         overflow: inherit;
@@ -349,8 +314,8 @@ a[href$="s21810201@student.unklab.ac.id"] {
     }
     .atas h1 {
         float: left;
+        margin-left: 1rem;
     }
-
     .inff {
         width: 100%;
     }
@@ -390,13 +355,18 @@ a[href$="s21810201@student.unklab.ac.id"] {
             border: 6px solid #584153;
             border-radius: 1rem;
             width: 100%;
+            padding-left: 8%;
     }
     .quote {
         text-align: center;
         margin-left: 10%;
     }
+    a[href$="index.html"] {
+        float: left ;
+    }
+}
 /* ======================Gallery===================== */
-.atas-fixx {
+ .atas-fixx {
     width: 100%;
     position: fixed;
     padding-top: 10px;
