@@ -11,8 +11,13 @@ function tampilan() {
     dua.style.background = "#393e46";
     let tiga = document.getElementsByClassName("tombol")[0];
     tiga.style.background = "#393e46"
+    document.getElementsByClassName("tombol")[1].style.background = "#393e46";
+    document.getElementsByClassName("tombol")[1].style.color = "lavender";
+    document.getElementsByClassName("tombol")[1].style.border = "lavender";
 }
 function tampilan2() {
+    let kk = document.body;
+    kk.style.background = "url(gallery/bgg.jpg)";
     let satu = document.getElementsByClassName("atas-fix")[0];
     satu.style.background = "#393e46";
     let dua = document.getElementsByClassName("kiri2")[0];
@@ -51,6 +56,10 @@ function tampilan2() {
     document.getElementsByTagName("textarea")[0].style.background = "#393e46";
     document.getElementsByTagName("textarea")[0].style.color = "lavender";
     document.getElementsByClassName("submit")[0].style.background = "#393e46";
+
+    document.getElementsByClassName("tombol")[0].style.background = "#393e46";
+    document.getElementsByClassName("tombol")[0].style.color = "lavender";
+    document.getElementsByClassName("tombol")[0].style.border = "lavender";
    
 }
 function tampilan3() {
