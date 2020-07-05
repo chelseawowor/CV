@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Nunito&family=Staatliches&family=Unna:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,13 +25,13 @@
         </header>
         <div class="kanan2">
             <div><img src="gallery/codepict22.jpg" alt="groundphoto"></div>
+            <button id="display" class="tombol" onclick="tampilan2();"> Change Display</button>
         </div>
         <div class="kiri2">
             <i class="pp"><img src="gallery/foto.jpg" alt="foto" width="50"></i>
             <div class="quote padtop">
-                <h2><i>Favorite Quotes</i></h2>
-                <p> <i><b>''Effort makes you. You will regret someday if you don't do your best now. Don't think it's too late to keep working on it.''</b></i> </p> <br>
-                <p> <i><b>"Don't be trapped in someone else's dream."</b></i> </p>
+                <h2><strong>Student at Klabat University,</strong></h2>
+                <h3><strong>Airmadidi, Minahasa Utara, Sulawesi Utara, Indonesia, 95371</strong> </h3>
             </div>
             <h1 id="basic-info"  class="padtop"><img src="icon/Users-User-Male-3-icon.png" alt="gambar"> Personal Information</h1>
             <div class="info padd">
@@ -149,7 +150,7 @@
                     <div class="text-area borr">
                         <textarea rows="4" placeholder="Your Massage..."></textarea>
                     </div>
-                    <button type="submit" class="submit">SEND MASSAGE</button>
+                    <button type="submit" class="submit" onclick="pesan();">SEND MASSAGE</button>
                 </form>
                 <h3>You can also visit me at</h3> <br>
                 <p>Instagram : <a href="https://instagram.com/chelseawowor?igshid=kpz6vxsx5w8x" target="_blank"> @chelseawowor</a><br> <br>

@@ -67,7 +67,7 @@ body {
     display: inline;
 }
 a[href] {
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     color: lavender;
 }
@@ -95,23 +95,51 @@ a[href$=".com"] {
     border: 1px solid #ccc;
     padding: 5px;
     margin-top: 2rem;
+    text-align: center;
 }
+.tombol {
+    border: 0;
+    outline: none !important;
+    padding: 5px;
+    margin: 0;
+    background:  #584153;
+    color: #e0dede;
+    display: ruby;
+}
+/* .mee button {
+    display: block;
+} */
 .links {
     background: #e0dede;
     display: inline-block;
-    padding: 1rem;
-    border: 3px solid #3b6978;
-    border-radius: 1rem;
+    padding: 10px;
+    border: 2px solid #3b6978;
+    border-radius:10px;
 }
 a[href$="cv.html"] {
     color: #204051;
 }
 a[href$="gallery.html"] {
     color: #204051;
-    margin-bottom: 3rem;
+}
+#display {
+    outline: none !important;
+    background:   #e0dede;
+    color: #584153;
+    border: 3px solid #584153;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
 }
 /* -------=--------------------MOBILE MODE---------------------------- */
 @media only screen and (max-width: 1000px) {
+    #display {
+        bottom: 0px;
+    }
+    a[href$="gallery.html"] {
+        color: #204051;
+        margin-bottom: 3rem;
+    }
     .atas-fix h1 {
         display: none;
     }
@@ -121,10 +149,6 @@ a[href$="gallery.html"] {
     .kiri {
         width: 100%;
     }
-    /* .topbarleft {
-        float: left!important;
-        display: block;
-    } */
     .atas {
         float: left;
     }
@@ -218,7 +242,6 @@ a[href$="http://www.unklab.ac.id/"] {
 }
 .quote {
     text-align: center;
-    margin-top: 1rem;
     margin-right: 2rem;
 }
 .quote p {
@@ -227,7 +250,7 @@ a[href$="http://www.unklab.ac.id/"] {
 .padd{
     background: #f6def6;
     border: 6px solid #584153;
-    border-radius: 1rem;
+    border-radius: 10px;
     margin-top: 1rem;
     margin-left: 4rem;
     margin-right: 4rem;
@@ -353,7 +376,6 @@ a[href$="s21810201@student.unklab.ac.id"] {
     .padd {
             background: #f6def6;
             border: 6px solid #584153;
-            border-radius: 1rem;
             width: 100%;
             padding-left: 8%;
     }
@@ -415,6 +437,4 @@ a[href$="s21810201@student.unklab.ac.id"] {
     margin: 2%;
     text-align: center;
     box-shadow: 0 0 15px 1px rgba(37, 37, 214, 0.18);
-    background: #f6def6;
-    border-radius: 1rem;
 }
