@@ -1,7 +1,8 @@
 function changePicture() {
     let mainProfile = document.getElementById("profill");
-    mainProfile.src = "gallery/profileChange.jpg";
+    mainProfile.src = "gallery/profileChange.JPG";
     width="200"
+    alert("Picture was change.");
 }
 function tampilan() {
     let satu = document.body;
